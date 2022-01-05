@@ -1,0 +1,72 @@
+.bottom-header-wrapper {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative; }
+    .bottom-header-wrapper .tg-container {
+      position: static; }
+  
+  .category-menu {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-weight: 600;
+    line-height: 43px;
+    text-transform: capitalize;
+    width: 230px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: relative;
+    margin-right: 30px; }
+    .category-menu:hover {
+      background: #00A9E0; }
+    .category-menu .category-toggle {
+      padding: 0 20px; }
+      .category-menu .category-toggle i {
+        float: right;
+        line-height: 43px; }
+    .category-menu .category-toggle.active {
+      background: #00A9E0; }
+  
+  #category-navigation {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #00a9e0;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 999; }
+    #category-navigation ul {
+      list-style: none;
+      margin: 0; }
+      #category-navigation ul li {
+        padding: 0 20px;
+        line-height: 38px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        position: relative; }
+        #category-navigation ul li a {
+          color: #333; }
+        #category-navigation ul li:hover > a {
+          color: #0191BC; }
+        #category-navigation ul li:last-child {
+          border-bottom: none; }
+  
+  #category-navigation ul.sub-menu {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #00a9e0;
+    left: 110%;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease; }
+  
+  #category-navigation ul li:hover > ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    left: 100%; }

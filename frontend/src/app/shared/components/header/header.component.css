@@ -1,0 +1,6 @@
+.example-spacer {
+    flex: 1 1 ;
+  }
+.mat-toolbar.mat-toolbar.mat-custom.mat-toolbar-single-row{
+    background-color: #2d2d26;
+  }

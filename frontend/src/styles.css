@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./theme/IE11.css";
+@import "./theme/form.css";
+@import "./theme/button.css";
+@import "./theme/head.css";
+@import "./theme/list.css";
+@import"./theme/fonts/fontawesome/css/all.min.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

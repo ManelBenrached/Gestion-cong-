@@ -1,0 +1,27 @@
+  <div class="container">
+
+      <form class="form1" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+        <div class="header">
+          <h3 class="page_heading">Sign-In</h3>
+        </div>
+        <div class="loginField">
+          <input type="text" [(ngModel)]="loginInfo.email" class="form-control" name="email" #email="ngModel"
+            placeholder="Email" required />
+          <span class="required-indicator" role="presentation"></span>
+        </div>
+        <div class="loginField">
+          <input type="password" class="form-control" [(ngModel)]="loginInfo.password" #password="ngModel"
+            name="password" placeholder="Password" required />
+        </div>
+     
+
+        <div class="submit-button">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+
+        </div>
+        <div class="flex-col">
+          <span class="txt1 p-b-9">Don’t have an account?</span>
+          <a routerLink="/register" routerLinkActive="active" class="txt3">Sign up now</a>
+        </div>
+      </form>
+    </div>

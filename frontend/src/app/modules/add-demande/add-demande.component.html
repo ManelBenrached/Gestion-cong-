@@ -1,0 +1,61 @@
+<div class="container">
+<h3>demande congé</h3>
+ 
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+        <div class="form-group col-5">
+            <label>Type</label>
+            <select formControlName="type" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.title.errors }">
+                <option value=""></option>
+                <option value="CONGE MALADIE">CONGÉ MALADIE</option>
+                <option value="CONGE MATERNITE">CONGÉ MATERNITÉ</option>
+                <option value="CONGE D’EXAMEN">CONGÉ D’EXAMEN</option>
+                <option value="CONGE ANNUEL"> CONGÉ ANNUEL</option>
+            </select>
+            <div *ngIf="submitted && f.type.errors"  class="invalid-feedback">
+                <div *ngIf="f.type.errors.required">Type is required</div>
+            </div>
+        </div>
+       </div>
+        <div class="form-row">
+        <div class="form-group col-5">
+            <label>Date départ</label>
+            <input type="date" formControlName="start_at" class="form-control"  />
+            <div *ngIf="submitted && f.start_at.errors"  class="invalid-feedback">
+                <div *ngIf="f.start_at.errors.required"> Date départ is required</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Date Retour</label>
+            <input type="date" formControlName="end_at" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.end_at.errors }" />
+            <div *ngIf="submitted && f.end_at.errors" class="invalid-feedback">
+                <div *ngIf="f.end_at.errors.required">Name is required
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group col-10">
+            <label>Description</label>
+            <textarea type="text" formControlName="description" class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f.dateretour.errors }" ></textarea>
+        <div *ngIf="submitted && f.description.errors" class="invalid-feedback">
+            <div *ngIf="f.description.errors.required">description is required
+            </div>
+        </div>
+
+             
+      
+       
+        </div>
+    </div>
+   
+    <div class="form-group">
+        <button   class="btn btn-primary"> 
+            <span *ngIf="loading"></span>
+            Save
+        </button>
+        <a routerLink="/home" class="btn btn-link">Cancel</a>
+    </div>
+</form>
+</div>

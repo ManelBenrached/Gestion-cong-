@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "price": 20,
+        "specificPrice": 12,
+        "unity": "$",
+        "imageUrl": "assets/images/hot-product/img-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Product 12",
+        "price": 20,
+        "specificPrice": 12,
+        "unity": "$",
+        "imageUrl": "assets/images/hot-product/img-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Product 31",
+        "price": 20,
+        "specificPrice": 12,
+        "unity": "$",
+        "imageUrl": "assets/images/hot-product/img-1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Product 5",
+        "price": 20,
+        "specificPrice": 12,
+        "unity": "$",
+        "imageUrl": "assets/images/hot-product/img-1.jpg"
+    }
+]

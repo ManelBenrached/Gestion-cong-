@@ -1,0 +1,255 @@
+ 
+
+.page_heading {
+    margin: 0 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+    position: relative;
+    color: #00a9e0;
+    font-size: 30px;
+    font-family: fangsong;
+    line-height: 30px;
+    font-weight: 800;
+
+}
+.div1-col-lg-12 {
+    border: 2px solid #d3ced2;
+    margin: 50px auto;
+    padding: 17px;
+    width: 50%;
+    margin-top: 10px;
+}
+h3.page_heading {
+    color: black !important;
+    font-size: 20px !important;
+}
+.breadcrumnb ol {
+    padding: 15px;
+    background-color: #f0f0f0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    /* margin: 50px; */
+    margin-top: 40px;
+}
+
+.breadcrumnb ol>li {
+    height: 14px;
+    font-size: 14px;
+    line-height: 1;
+}
+.breadcrumnb ol li {
+    float: left;
+    line-height: 1;
+    font-size: 14px;
+    color: #949494;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.breadcrumnb ol li>a {
+    color: #575757;
+}
+.breadcrumnb ol li>span, .breadcrumnb ol li:last-child>a {
+    color: #000;
+}
+.header>.page_heading {
+    margin-bottom: 25px;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+
+.page_heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    border-bottom: 1px solid #000;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#registration0 .accountRegForm, #updateAccount .loginInfo, #updateAccount .billingInfo, #updateAccount .shippingInfo, #updateAccount .otherInfo {
+    margin-bottom: 10px;
+}
+.accountRegForm-col {
+    max-width: 630px;
+}
+.loginField {
+    margin-bottom: 20px;
+}
+.col-lg-12 {
+    width: 100%;
+}
+.accountRegForm-col {
+    max-width: 630px;
+}
+h1 {
+    font-size: 30px;
+}
+.breadcrumnb {
+    margin: 20px 0;
+}
+
+.validation-field {
+    position: relative;
+    margin: 0;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+}
+.page_header {
+    margin: 0 0 25px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.content-area {
+    position: relative;
+}
+.form-control {
+    color: #000;
+    font-family: montserrat,sans-serif;
+    font-size: 13px;
+    height: 36px;
+    padding: 7px 12px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.required-indicator {
+    color: #f00;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 13px;
+    padding-top: 13px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 16px;
+    margin: auto;
+    height: 26px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.col-sm-6 {
+    width: 50%;
+    float: left;
+}
+.btn-default.btn-inverse, .btn-primary {
+    color: #fff;
+     border-color: #6fc6eb;
+}
+.submit {
+    cursor: pointer;
+      border-radius: 5em;
+      color: #fff;
+      background: linear-gradient(to right, #7bace0, #7bace0);
+      border: 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      margin-left: 35%;
+      font-size: 13px;
+      box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+button[_ngcontent-bnd-c16], input[_ngcontent-bnd-c16], select[_ngcontent-bnd-c16], textarea[_ngcontent-bnd-c16] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+    box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+.col-xs-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.col-sm-8 {
+    width: 66.66666667%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+.col-sm-5 {
+    width: 41.66666667%;
+}
+.auth-inlined-information-message {
+    display: inline-block;
+}
+.a-alert-inline {
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.submit-button {
+    margin-top: -20px;
+}
+.submit-button>.btn {
+    width: 100%;
+}
+
+.a-alert-inline-info .a-alert-container {
+    padding-left: 16px;
+    color: #2b2b2b;
+}
+.a-alert-inline {
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.txt3{
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: #00a9e0;
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.flex-col{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+}
+.a-alert-content {
+    margin-top: -22px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #c1c1c1;
+    margin-left: 7px;
+}

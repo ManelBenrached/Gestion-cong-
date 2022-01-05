@@ -1,0 +1,391 @@
+.breadcrumnb ol {
+    padding: 15px;
+    background-color: #f0f0f0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    /* margin: 50px; */
+    margin-top: 40px;
+}
+.breadcrumnb ol>li {
+    height: 14px;
+    font-size: 14px;
+    line-height: 1;
+}
+.breadcrumnb ol li {
+    float: left;
+    line-height: 1;
+    font-size: 14px;
+    color: #949494;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.breadcrumnb ol li>a {
+    color: #575757;
+}
+.breadcrumnb ol li>span, .breadcrumnb ol li:last-child>a {
+    color: #000;
+}
+.header>.page_heading {
+    margin-bottom: 25px;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+h3.page_heading{
+    color: black !important;
+    font-size: 24px !important;
+    margin-top: -10px;
+}
+
+.page_heading {
+    margin: 0 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+    position: relative;
+    color: #00a9e0;
+    font-size: 30px;
+    font-family: fangsong;
+    line-height: 30px;
+    font-weight: 800;
+
+}
+.page_heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    border-bottom: 1px solid #000;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#registration0 .accountRegForm, #updateAccount .loginInfo, #updateAccount .billingInfo, #updateAccount .shippingInfo, #updateAccount .otherInfo {
+    margin-bottom: 10px;
+}
+.accountRegForm-col {
+    max-width: 630px;
+}
+.loginField {
+    margin-bottom: 10px;
+}
+.col-lg-12 {
+    width: 100%;
+}
+.accountRegForm-col {
+    max-width: 630px;
+}
+h1 {
+    font-size: 30px;
+}
+.breadcrumnb {
+    margin: 20px 0;
+}
+
+.validation-field {
+    position: relative;
+    margin: 0;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+}
+.page_header {
+    margin: 0 0 25px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.content-area {
+    position: relative;
+}
+.form-control {
+    color: #000;
+    font-family: montserrat,sans-serif;
+    font-size: 13px;
+    height: 36px;
+    padding: 7px 12px;
+}
+
+.required-indicator {
+    color: #f00;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 13px;
+    padding-top: 13px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 16px;
+    margin: auto;
+    height: 26px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+ 
+button.btn.btn-primary:hover{
+         background-color: #0069d9;
+         
+   }
+
+   button.btn.btn-primary {
+    width: 100%;
+}
+
+.beta-col {
+    text-align: right;
+    padding: 0 70px 0 18%;
+}
+.beta-col {
+    text-align: right;
+    padding: 0 70px 0 18%;
+}
+.headerTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#loginAccount .loginField, #resetpass .resetField #registration0 .loginField {
+    margin-bottom: 20px;
+}
+.alpha-col, .beta-col {
+    margin-bottom: 25px;
+}
+.alpha-col {
+    padding: 0 14% 0 70px;
+}
+#loginAccount .loginField, #resetpass .resetField #registration0 .loginField {
+    margin-bottom: 20px;
+}
+ 
+.btn {
+    font-size: 13px;
+    padding: 8px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.col-lg-8 {
+    width: 50%;
+    float: right;
+}
+.col-lg-4 {
+    width:30%;
+    float: right;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #333;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+}
+.btn-default, .btn-primary:focus, .btn-primary:active:focus {
+    border-color: #6fc6eb;
+         background-color: #0069d9;
+       color: rgb(248, 248, 248);
+}
+.btn-default.btn-inverse, .btn-primary {
+    color: #fff;
+     border-color: #6fc6eb;
+}
+.btn {
+    font-size: 13px;
+    padding: 8px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0;
+}
+
+
+
+body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    background-color: #FFFFFF;
+     height: 470x;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    width: 450px;
+    background: #fff;
+    border-radius: 21px;
+    overflow: hidden;
+     overflow: hidden;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+    -o-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -ms-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+
+}
+div#top {
+    padding-top: 1px;
+    padding-bottom: -32px;
+}
+.sign {
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    margin-top: -10px;
+    color: #0c0c0c;
+ }
+
+.un {
+width: 76%;
+margin-top: 40px;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 1px;
+background: rgb(240 240 240);
+padding: 10px 20px;
+border: none;
+border-radius: 8px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 55px;
+text-align: left;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+#loginAccount[_ngcontent-ite-c16] .btn[_ngcontent-ite-c16] {
+    width: 100%;
+    background-color: #00a9e0;
+}
+.submit-button {
+    width: 100%;
+    height: 42px;
+     /* align-items: center; */
+ }
+
+form.form1 {
+    border: 2px solid #d3ced2;
+    padding: 20px;
+     margin: 2em 0;
+    text-align: left;
+    border-radius: 5px;
+    width: 30%;
+    padding-top: 40px;
+    margin: 50px auto
+}
+
+.pass {
+        width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 1px;
+background: rgb(240 240 240);
+padding: 10px 20px;
+border: none;
+border-radius: 8px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 55px;
+text-align: left;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.submit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #7bace0, #7bace0);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    
+}}
+.txt1 {
+    font-family: 'Font Awesome 5 Free';
+    font-size: 15px;
+    color: #0c0c0c;
+    line-height: 1.4;
+    padding-top: 20px;
+}
+.txt2 {
+    font-family: Ubuntu-Regular;
+    font-size: 15px;
+    color: #00a9e0;
+    line-height: 1.4;
+    margin-right: -15px;
+}
+.text-right.p-t-13.p-b-23 {
+    padding-bottom: 14px;
+    margin-top: -25px;
+    padding-right: 20px;
+}
+.txt3 {
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: #00a9e0;
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.p-b-9 {
+    padding-bottom: 9px;
+} 
+.flex-col{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+}
