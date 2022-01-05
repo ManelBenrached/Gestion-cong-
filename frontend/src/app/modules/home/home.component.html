@@ -24,11 +24,13 @@
                 <td>{{demande.status}}</td>
                
 
-                <td *ngIf="!isencours" style="white-space: nowrap">
-                    <a   class="btn btn-sm btn-primary mr-1">Accepter</a>
-                    <button  class="btn btn-sm btn-danger btn-delete-user"  >Refuser
+                <td style="white-space: nowrap">
+                    
+                    <button *ngIf="!isaccept" (click)="Accepter()" class="btn btn-sm btn-primary mr-1">Accepter</button>
+                        <button *ngIf="!isaccept" class="btn btn-sm btn-danger btn-delete-user"  >Refuser
                     </button>
                 </td>
+
             </tr>
           
         </tbody>
