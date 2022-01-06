@@ -28,8 +28,13 @@ export class DemandeService {
   public addconge(data: any): Observable<any> {
     return this.http.post<Demande>(environment.apiUrl + this.API_GET_DEMANDE, data);
   }
+<<<<<<< HEAD
   public changestatus(Status:string): Observable<Demande> {
     return this.http.put<Demande>(environment.apiUrl + this.CHANGE_Status, Status);
+=======
+  public changestatus(data: any): Observable<any> {
+    return this.http.put<Demande>(environment.apiUrl + this.CHANGE_Status, data);
+>>>>>>> b306415aca7d81f2a01cc863cc77ee5d99bae074
   }
 
 

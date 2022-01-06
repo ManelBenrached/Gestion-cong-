@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="toolbar" role="banner" style="margin-top: -40px">
  <a routerLink="/"><img id="img"
   width="50"
@@ -15,3 +16,20 @@
             
   </div></div>
   
+=======
+<mat-toolbar color="custom">
+   
+  <a mat-button routerLink="">Home</a>
+  <span class="spacer"></span>
+ 
+ 
+  <span class="example-spacer"></span>
+  <div class="login-register-wrap right-header-block">
+    <ul class="navbar-nav">
+    <li  >
+    <a *ngIf="!isLoggedIn" routerLink="/login"  class="user-icon">Login/ Register </a>	</li>
+    <li  >
+      <a *ngIf="isLoggedIn" type="submit" (click)="logout()"  class="user-icon">Logout </a></li></ul>
+      </div>
+  </mat-toolbar>
+>>>>>>> b306415aca7d81f2a01cc863cc77ee5d99bae074
