@@ -40,12 +40,11 @@ export class AddDemandeComponent implements OnInit {
             start_at: ['', Validators.required],
             end_at: ['', Validators.required],
             description: ['', Validators.required],
+            user_id: [this.user.id, Validators.required],
          });
-
+      
         
     }
-
-    // convenience getter for easy access to form fields
     get f() { return this.form.controls; }
 
     onSubmit() {

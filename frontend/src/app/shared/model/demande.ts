@@ -1,5 +1,5 @@
 export class Demande {
-    public id_user:string;
+    public user_id:string;
     public type:string;
     public start_at: Date;
     public end_at:Date;

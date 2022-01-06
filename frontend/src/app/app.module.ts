@@ -14,7 +14,9 @@ import { AccountComponent } from './modules/account/account.component';
  // For MDB Angular Free
 import { NavbarModule, WavesModule, ButtonsModule } from 'angular-bootstrap-md';
  import { AddDemandeComponent } from './modules/add-demande/add-demande.component';
- 
+ import {MatIconModule} from '@angular/material/icon'
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +37,7 @@ import { NavbarModule, WavesModule, ButtonsModule } from 'angular-bootstrap-md';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     NavbarModule,
+    MatIconModule,
     ButtonsModule,
     WavesModule,
      

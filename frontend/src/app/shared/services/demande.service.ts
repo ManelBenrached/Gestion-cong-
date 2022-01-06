@@ -13,6 +13,7 @@ export class DemandeService {
   API_GET_DEMANDE = "/conges";
   SING_DEMANDE = "/conges/{id}";
   USER_DEMANDE ="/conges/list_conges_user_connect";
+  CHANGE_Status="/conges/1/change_status";
   private demande: Observable<Demande[]>;
 
   constructor(private http: HttpClient) { }
@@ -27,7 +28,9 @@ export class DemandeService {
   public addconge(data: any): Observable<any> {
     return this.http.post<Demande>(environment.apiUrl + this.API_GET_DEMANDE, data);
   }
-
+  public changestatus(Status:string): Observable<Demande> {
+    return this.http.put<Demande>(environment.apiUrl + this.CHANGE_Status, Status);
+  }
 
 
   public viewDemande(id: any): Observable<Demande> {
