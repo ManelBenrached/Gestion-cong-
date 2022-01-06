@@ -49,9 +49,10 @@ class DemandeController extends Controller
     }
     /****************************create conge**********************/
       public function create(Request $request) {
+        
          $data = $request->all();
          $data['status'] = "en cours" ;
-         $data['user_id'] = auth('api')->user()['id'];
+        // $data['user_id'] =auth('api')->user()['id'];
          $conge =  Demande::create($data);
   
         return response()->json([
@@ -59,6 +60,7 @@ class DemandeController extends Controller
           "status" => 201,
           "data" => $conge
         ], 201);
+
       }
     
       /****************************update conge**********************/
@@ -86,15 +88,15 @@ public function changeStatus(Request $request,$id)
     {
       $conge = Demande::find($id);
       if ($conge) {
-        $role = auth('api')->user()['role'];
-        if($role != "admin")
-        {
+       // $role = auth('api')->user()['role'];
+    //    if($role != "admin")
+      /* {
           return response()->json([
             "message" => "accès interdit",
             "status" => 401,
             "data" =>null
           ], 401);
-        }
+        }*/
         $data = $request->all('status');
          $conge = $conge->update($data);
         return response()->json([
