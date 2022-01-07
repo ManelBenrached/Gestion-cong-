@@ -21,7 +21,7 @@ const routes: Routes = [
     loadChildren: () => RegisterModule 
    },
    {
-    path: 'addDmande'  ,
+    path: 'add'  ,
     loadChildren: () => AddDemandeModule 
    },
    

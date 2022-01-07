@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit, OnDestroy  {
   toggleShow() {
     this.isShowen = ! this.isShowen;
   }
-dataCart:any;
   constructor(
     private authService:AuthService,
     private router :Router,

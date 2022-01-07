@@ -6,6 +6,7 @@ import { stat } from 'fs';
 import { element } from 'protractor';
 import { BehaviorSubject, pipe } from 'rxjs';
 import { find, first } from 'rxjs/operators';
+import { AuthService } from 'src/app/auth/auth.service';
 import { TokenStorageService } from 'src/app/auth/token-storage.service';
 import { Demande } from 'src/app/shared/model/demande';
 import { User } from 'src/app/shared/model/user';
@@ -19,26 +20,24 @@ export class ListDemandeComponent implements OnInit {
   demandes: Array<any>=[];
   data:any;
   public user:User;
-  public isAdmin=false;
   public isencours=false;
-  public isaccept=false;
-  public isrefus=false;
+  public isaccept= false;
+  public isrefus= false;
+  public isAdmin= false;
   public form!: FormGroup;
-stat='en cour';
-   public  elmnt :any;
-  private val: BehaviorSubject<string> = new BehaviorSubject<string>(this.stat);
+  isLoggedIn : Boolean ;
 
-  value="accept";
-  formBuilder: any;
- 
-
+  stat:any; 
+  
    constructor(
+    private authService:AuthService,
      private tokenStorage: TokenStorageService,
      private router: Router,
      private demandeService: DemandeService) {}
     
  
    ngOnInit() { 
+  
       
      this.user= this.tokenStorage.getUser();
      //console.log(this.user.role);
@@ -48,19 +47,13 @@ stat='en cour';
        
       this.getdemandes();
       this.demandes.forEach((value) => {  
+        
         console.log(value); 
         if( value='en cours'){
-          this.isencours = true;
-
-          console.log(  this.isencours);
+        
+          this.isaccept = true;  
          }
-         if( value='accepte'){
-          this.isaccept = true; 
-         }
-         if( value='refuser'){
-          this.isrefus = true; 
-         }
-
+        
           
       
 
@@ -88,13 +81,14 @@ getdemandes(): void {
         console.log(error);
       });
 }
-public status:string;
+status:'accepter';
+
 Accepter() {
-     let status:any
+     
 let token = sessionStorage.getItem("AuthToken");
- 
-  this.demandeService.changestatus(status).pipe(first()).subscribe((data) => {
-    status='accepter';
+  let status='accepter';
+  
+   this.demandeService.acceptedemande(status).pipe(first()).subscribe((data) => {
     console.log(data);
      
     console.log('Data is received - Result - ', data);

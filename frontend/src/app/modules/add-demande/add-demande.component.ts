@@ -59,7 +59,7 @@ export class AddDemandeComponent implements OnInit {
    .pipe(first())
    .subscribe(() => {
        this.alertService.success('demande added successfully', { keepAfterRouteChange: true });
-       this.router.navigate(['../'], { relativeTo: this.route });
+       this.router.navigate(['../demandes'], { relativeTo: this.route });
    })
    .add(() => this.loading = false);
 }   
